@@ -75,7 +75,7 @@ button {
 .hero img {
     filter: invert(1);
     width: 300px;
-    margin-right: 100px;
+    
     margin-bottom: 25px
 }
 
@@ -113,4 +113,18 @@ a {
     color: #1f2937;
     font-weight: 900;
     padding: 32px;
+}
+
+.quote-container { 
+    color: #1f2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.grey-bg {
+    background-color: #E5E7EB;
 }
