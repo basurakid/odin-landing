@@ -11,6 +11,13 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.large-container {
+    padding: 0 15%;
+}
+.small-container {
+    padding: 0 20%;
+    text-align: center;
+}
 
 .dark-bg {
     background-color: #1f2937;
@@ -18,32 +25,58 @@ body {
 }
 
 .header {
-    justify-content: space-between;
-    align-items: center;
     padding: 16px 0;
 }
 
 .header, .hero {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
     font-size: 24px;
+    font-weight: 800;
 }
-
-
 
 .hero {
     padding: 100px 0;
+
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
-.hero-text {
-    max-width: 500px;
+.text h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+.text p {
+    max-width: 600px;
 }
 
-img {
+.text p, .header a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882f6;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 800;
+}
+
+.hero img {
     filter: invert(1);
     width: 300px;
+    margin-right: 100px;
+    margin-bottom: 25px
 }
 
 ul {
@@ -51,6 +84,33 @@ ul {
     display: flex;
     gap: 16px;
 }
-body > div {
-    padding: 0 200px;
+a {
+    text-decoration: none;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.s {
+    
+}
+
+.card-img {
+    max-width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+.card p {
+    max-width: 150px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 32px;
 }
